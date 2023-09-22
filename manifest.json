@@ -5,7 +5,7 @@
     "name": "Ice Dodo",
     "short_name": "Ice Dodo",
     "description": "Play 3D game easily by clicking the little icon at the top right corner of your browser.",
-    "version": "0.165",
+    "version": "0.128",
     "icons": {
         "16": "assets/icons/icon16.png",
         "48": "assets/icons/icon48.png",
@@ -17,7 +17,7 @@
     },
     "permissions": ["storage"],
     "background": {
-        "service_worker": "ExtensionBackground.js"
+        "service_worker": "background.js"
     },
     "externally_connectable": {
         "matches": ["https://*.onionfist.com/*"]
